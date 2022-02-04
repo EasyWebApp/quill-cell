@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "jsx": "react",
+        "jsxFactory": "createCell",
+        "jsxFragmentFactory": "Fragment",
+        "lib": ["ES2021", "DOM"]
+    },
+    "include": ["source/*"],
+    "typedocOptions": {
+        "name": "Quill Cell",
+        "excludeExternals": true,
+        "excludePrivate": true,
+        "readme": "./ReadMe.md",
+        "out": "docs/"
+    }
+}
